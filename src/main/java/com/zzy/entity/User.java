@@ -1,10 +1,10 @@
 package com.zzy.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable{
     private String id;
-
     private String name;
     private int age;
     private Date birthday;
